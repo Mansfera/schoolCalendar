@@ -63,6 +63,26 @@ p {
   justify-content: center;
   align-items: center;
 }
+.date p {
+  border-radius: 0.35rem;
+  padding-block: 0.05rem;
+  width: 80%;
+}
 .link {
+  font-size: 1.25rem;
   text-decoration: underline;
+}
+.happened {
+  text-decoration: line-through;
+  color: gray;
+}
+.today {
+  background-color: coral;
+}
+.next {
+  background-color: aliceblue;
+  color: black;
+}
+.wait {
+  color: rgb(171, 171, 171);
 }
