@@ -1,5 +1,5 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 .main_wrapper {
   width: 100vw;
@@ -42,9 +42,27 @@ p {
   height: 100%;
   color: aliceblue;
   text-decoration: none;
+  padding: 0;
+  margin: 0;
 }
 .main_wrapper-dates {
-    display: flex;
-    flex-direction: column;
-    gap: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-block: 1rem;
+  border-radius: 1rem;
+  border: 1px aliceblue dashed;
+}
+.date {
+  width: 100%;
+  height: fit-content;
+  padding-inline: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link {
+  text-decoration: underline;
 }
