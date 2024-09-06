@@ -1,0 +1,50 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.main_wrapper {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  gap: 2rem;
+}
+.main_wrapper-calendar {
+  border-radius: 1rem;
+  width: 80%;
+  max-width: 275px;
+  height: 70px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#matem_gr {
+  background-color: teal;
+}
+#academ_gr {
+  background-color: salmon;
+}
+#text_cal {
+  border: 1px aliceblue dashed;
+}
+a,
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: aliceblue;
+  text-decoration: none;
+}
+.main_wrapper-dates {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+}
